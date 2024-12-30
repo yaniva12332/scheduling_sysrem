@@ -1,12 +1,12 @@
 // Initialize Firebase
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_SENDER_ID",
-    appId: "YOUR_APP_ID",
-    measurementId: "YOUR_MEASUREMENT_ID"
+    apiKey: "AIzaSyBl5OFssavusVyq6obQk6lzpeGhTOKPjVg",
+    authDomain: "timemaster-fdd5b.firebaseapp.com",
+    projectId: "timemaster-fdd5b",
+    storageBucket: "timemaster-fdd5b.firebasestorage.app",
+    messagingSenderId: "536960942402",
+    appId: "1:536960942402:web:e8f3393df514b48650c8db",
+    measurementId: "G-XQR4XYFESB"
 };
 
 // אתחול Firebase
