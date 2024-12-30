@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הרשמה</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <h1>הירשם למערכת TimeMaster</h1>
+    <form action="/register" method="POST">
+        <label for="username">שם משתמש:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">אימייל:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">סיסמא:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">הירשם</button>
+    </form>
+
+    <a href="login.html">כבר יש לך חשבון? התחבר כאן</a>
+</body>
+</html>
