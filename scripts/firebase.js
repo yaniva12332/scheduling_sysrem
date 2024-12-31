@@ -109,6 +109,22 @@ function getCurrentUser() {
         console.log("לא מחובר");
     }
 }
+{
+  "hosting": {
+    "public": "public",  // תיקיית הקבצים המוצגים באתר
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/**",    // כל הבקשות
+        "destination": "/index.html" // להפנות ל-index.html
+      }
+    ]
+  }
+}
 
 // חיבור עם Firebase Analytics (אם יש צורך)
 firebase.analytics();
